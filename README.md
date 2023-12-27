@@ -1,6 +1,6 @@
 # S3 credentials
 
-## Test
+## Run
 
 ```shell
 npx s3-credentials -e <endpoint> -r <region> -a <access> -s <secret> -b <bucket>
@@ -15,7 +15,7 @@ npx s3-credentials -e <endpoint> -r <region> -a <access> -s <secret> -b <bucket>
 ## Version
 
 ```shell
-npx s3-credentials --version
+npx s3-credentials -v
 ```
 
 ## Help
@@ -23,3 +23,12 @@ npx s3-credentials --version
 ```shell
 npx s3-credentials -h
 ```
+
+## Development
+
+[DEVELOPMENT.md](docs/DEVELOPMENT.md)
+
+## Npmjs
+
+[![npm](https://img.shields.io/npm/v/s3-credentials?label=npm)](https://www.npmjs.com/package/s3-credentials)
+[![downloads](https://img.shields.io/npm/dt/s3-credentials?label=downloads)](https://www.npmjs.com/package/s3-credentials)
