@@ -1,0 +1,58 @@
+{
+  "name": "s3-credentials",
+  "version": "1.0.0",
+  "description": "Test S3 access using credentials",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc --build .",
+    "cli": "./build/index.js",
+    "lint": "eslint src/**/*.ts",
+    "fix": "eslint ./src/**/*.ts --fix"
+  },
+
+  "main": "build/index.js",
+  "bin": "build/index.js",
+  "repository": "https://github.com/dicex2/s3-credentials",
+  "author": "@snowandfluff",
+  "license": "GPL-3.0",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "build/",
+    "src/",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "yarn.lock"
+  ],
+  "keywords": [
+    "S3",
+    "credentials",
+    "cli",
+    "tool",
+    "checker",
+    "check",
+    "validator",
+    "validate",
+    "tester",
+    "test",
+    "access"
+  ],
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.478.0",
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8",
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "eslint": "^8.56.0",
+    "eslint-config-standard-with-typescript": "^43.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.5.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
