@@ -1,5 +1,7 @@
 # S3 credentials
 
+Console tool to test S3 credentials access
+
 ## Run
 
 ```shell
