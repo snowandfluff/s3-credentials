@@ -12,7 +12,7 @@
 
   "main": "build/index.js",
   "bin": "build/index.js",
-  "repository": "https://github.com/dicex2/s3-credentials",
+  "repository": "https://github.com/snowandfluff/s3-credentials",
   "author": "@snowandfluff",
   "license": "GPL-3.0",
   "engines": {
