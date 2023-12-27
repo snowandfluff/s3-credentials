@@ -1,6 +1,6 @@
 {
   "name": "s3-credentials",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test S3 access using credentials",
   "scripts": {
     "start": "ts-node src/index.ts",
